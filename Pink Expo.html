@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toursium - Explore India</title>
+    <style>
+body {
+    font-family:monospace;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #2c3e50;
+    background-color: #ffffff;
+}
+.class{
+    background-color:#ffffff;
+    justify-content: center;
+    text-align: center;
+    text-overflow: clip;
+    text-decoration-line:inherit;
+    text-shadow: #eaeaea;
+    text-transform:inherit;
+    text-decoration-style:dotted;
+    padding: 10px;
+    margin: 1px ;
+    font-size:17px;
+
+}
+.class img{
+    height: 300px;
+}
+.class:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background-color: white;
+    color: rgb(23, 23, 23);
+    padding: 2em 1em;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+header p {
+    font-size: 1.4em;
+    margin-top: 0.5em;
+    font-weight: 300;
+}
+
+#places {
+    padding: 2em 5%;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2em;
+}
+
+.place {
+    background-color: #92929245;
+    border: 1px solid #aeaeae75;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 1em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+}
+
+
+.place:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.place img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.place h2 {
+    font-size: 1.8em;
+    color: #e74c3c;
+    margin-bottom: 0.5em;
+}
+
+.place p {
+    font-size: 1em;
+    line-height: 1.8;
+    color: #202020;
+    text-align: justify;
+}
+
+.place h1 {
+    font-size: 1.5em;
+    color: #34495e;
+    margin-top: 1em;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #34495e;
+    color: #e1e9eb;
+    text-align: center;
+    padding: 1.5em 1em;
+    margin-top: 2em;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+@media (min-width: 1024px) {
+    header h1 {
+        font-size: 3.5em;
+    }
+
+    header p {
+        font-size: 1.6em;
+    }
+    .class img{
+    height: 300px;
+}
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Toursium</h1>
+        <p>Explore the beauty and culture of India</p>
+    </header>
+    <div class="class">
+        <img src="https://www.tourism.rajasthan.gov.in/content/dam/rajasthan-tourism/english/city/banners/desk/14.jpg">
+        <h1>JAIPUR</h1>
+        <h2>THE PINK CITY</h2>
+        <P>Rajasthan combines the allure of its ancient history with all the advantages of a metropolis. The bustling modern city is one of the three corners of the golden triangle that includes Delhi, Agra and Jaipur.
+
+            The story goes that in 1876, the Prince of Wales visited India on a tour. Since the colour pink was symbolic of hospitality, Maharaja Ram Singh of Jaipur painted the entire city pink. The pink that colours the city makes for a marvellous spectacle to behold. Jaipur rises up majestically against the backdrop of the forts Nahargarh, Jaigarh and Garh Ganesh Temple.
+            
+            Jaipur traces back its origins to 1727 when it was established by Jai Singh II, the Raja of Amber. He shifted his capital from Amber to the new city because of the rapidly-growing population and an increasing water scarcity. Noted architect Vidyadhar Bhattacharya used the established principles of Vastu Shastra to build the city.</P>
+    </div>
+
+    <section id="places">
+        <div class="place">
+            <img src="https://www.jcrcab.com/wp-content/uploads/2020/08/rajasthan-jaipur-148046451622-orijgp.jpg" alt="Jaipur, Rajasthan, India">
+            <h1>HAWA MAHAL</h1>
+            <h2> </h2>
+            <p>Hawa Mahal, literally the Palace of Winds, was built in 1799 by the poet king Sawai Pratap Singh as a summer retreat for him and his family. It also served as a place where the ladies of the royal household could observe everyday life without being seen themselves. This unique five-storey structure is a blend of Hindu and Islamic architecture, and the exterior, with its small latticed windows (called jharokhas), resembles the crown of Lord Krishna. The windows also serve as an air-conditioner of sorts, blowing cool air throughout the palace, making it the perfect retreat during summers. Built from pink sandstone, the Hawa Mahal is Jaipur’s iconic landmark and visitors can view its complete magnificence from outside, from across the road. However, it is also possible to climb right up to the top for a wonderful view from the windows. Today, the Mahal is maintained by the Archaeological Department of the Government of Rajasthan and also houses an archaeological museum in the courtyard.p>
+        </div>
+
+        <div class="place">
+            <img src="https://www.authenticindiatours.com/app/uploads/2022/03/Amber-Fort-Jaipur-Rajasthan-1400x550-c-default.jpg" alt="Amber Fort in Jaipur, Rajasthan">
+            <h2>Amber Fort</h2>
+            <p>The Amber Fort in Jaipur, Rajasthan, is a stunning example of Rajput architecture and history. It is a must-visit for those exploring the Pink City.Amber Fort is situated in the valley of the Aravalli ranges just below Jaigarh Fort. Prior to shifting their capital to Jaipur, Amber was the capital of the Kachhwaha Rajput’s. Amber was initially under the domain of the Susawat Meena tribe. In the 11th century, Dulahrai (Dhola), the son of Sodhadeva laid the foundation of the Kachhwaha dynasty in the Dhundhar region. His son, Kakil Dev took over the reign of Amber from the Meena’s. Raja Man Singh I started the construction of the new palace complex in the end of the 16th century. After Raja Man Singh I, Mirza Raja Jai Singh I and Sawai Jai Singh II made modifications and changes as per the needs from time to time. They also changed the interior decoration as per their own interest. The entire fort constructed in four stages.</p>
+            <h1>Timings:-8.00AM to 8.00PM</h1>
+        </div>
+        <div class="place">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/d3/a8/57/images-30-largejpg.jpg?w=700&h=400&s=1">
+            <h2>AMBER PALACE</h2>
+            <p>Amber (pronounced Amer) is at a distance of about 11 kilometres from Jaipur. Now a UNESCO World Heritage Site, it was the bastion of the Kachwahas of Amber, until the capital was moved to the plains, to what is today Jaipur. The palace, located in craggy hills, is a beautiful melange of Hindu and Mughal styles. Raja Man Singh I began construction in 1592 and the palace, which was built as a strong, safe haven against attacking enemies, was completed by Mirja Raja Jai Singh. The contrast between the harsh exterior and the inviting interior couldn’t be more surprising. Made entirely of red sandstone and white marble, visitors are left spellbound by the magnificence of the palace that utilises carvings, precious stones and mirrors. The splendour of the palace is enhanced by the breath-taking vista of the Maota Lake in front. The palace is nearly seven centuries old and has a legendary past. Originally a small structure that the Rajputs won from the Meena tribes, it was later transformed into the grand Amber Palace.</p>
+        </div>
+
+        
+    </section>  
+    
+    
+    <section id="places">
+
+        <div class="place">
+            <img src="https://www.tourism.rajasthan.gov.in/content/dam/rajasthan-tourism/english/city/explore/103.jpg">
+            <h2>CITY PALACE</h2>
+            <p>Located deep within the walled city, the City Palace Complex was conceived and built by Maharaja Sawai Jai Singh II, the founder of Jaipur. A beautiful fusion of Mughal and Rajput architecture, the palace is still home to the last ruling royal family which lives in a private section of the palace. Maharaja Sawai Jai Singh II is credited with building most of the structures, but it was expanded upon by later rulers as well. The City Palace Complex includes the Mubarak Mahal (the palace of reception) and the Maharani’s Palace (the palace of the queen). Mubarak Mahal now houses the Maharaja Sawai Man Singh II Museum and displays a vast and unique collection of royal costumes, delicate Pashmina (Kashmiri) shawls, Benaras silk saris, and other dresses with Sanganeri prints and folk embroidery. The clothes of Maharaja Sawai Madho Singh I are also on display. The Maharani's Palace, surprisingly, has an interesting display of very well-preserved Rajput weaponry, some dating back to the 15th century. Other than the arms, the palace is adorned with beautiful paintings on the ceiling that are well-maintained.</p>
+        </div>
+
+        <div class="place">
+            <img src="https://www.tourism.rajasthan.gov.in/content/dam/rajasthan-tourism/english/city/explore/110.jpg">
+            <h2>ALBERT HALL MUSEUM (CENTRAL MUSEUM)</h2>
+            <p>The building gets its name from The Victoria and Albert Museum in London, the inspiration for its design. The exquisitely built Albert Hall is housed in the centre of Ram Niwas Garden. Sir Swinton Jacob (who is also the mastermind behind many other palaces in Rajasthan) conceptualised and designed it using styles from the Indo-Sarcenic architecture and the Prince of Wales laid the foundation stone of the building in 1876. The museum displays a wide range of metal objects, wood crafts, carpets, stone and metal sculptures, arms and weapons, natural stones and ivory goods. It also houses a large collection of miniatures from Bundi, Kota, Kishangarh, Udaipur and Jaipur schools of art.</p>
+        </div>
+
+        <div class="place">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/d3/a8/57/images-30-largejpg.jpg?w=700&h=400&s=1">
+            <h2>AMBER PALACE</h2>
+            <p>Amber (pronounced Amer) is at a distance of about 11 kilometres from Jaipur. Now a UNESCO World Heritage Site, it was the bastion of the Kachwahas of Amber, until the capital was moved to the plains, to what is today Jaipur. The palace, located in craggy hills, is a beautiful melange of Hindu and Mughal styles. Raja Man Singh I began construction in 1592 and the palace, which was built as a strong, safe haven against attacking enemies, was completed by Mirja Raja Jai Singh. The contrast between the harsh exterior and the inviting interior couldn’t be more surprising. Made entirely of red sandstone and white marble, visitors are left spellbound by the magnificence of the palace that utilises carvings, precious stones and mirrors. The splendour of the palace is enhanced by the breath-taking vista of the Maota Lake in front. The palace is nearly seven centuries old and has a legendary past. Originally a small structure that the Rajputs won from the Meena tribes, it was later transformed into the grand Amber Palace.</p>
+        </div>
+    </section> 
+    
+    
+    <section id="places">
+
+        <div class="place">
+            <img src="https://www.tourism.rajasthan.gov.in/content/dam/rajasthan-tourism/english/city/explore/118.jpg">
+            <h2>MOTI DOONGRI GANESH TEMPLE</h2>
+            <p>Moti Doongri is a small hill around which the city of Jaipur flourishes. Moti Doongri means pearl hill, because the hill indeed resembles a pearl drop. Visitors go there to pay homage at the famous Ganesh temple, the most auspicious and important religious temple in Jaipur. The Ganesh temple was built by Seth Jai Ram Paliwal, sometime in the early 18th century. A legend goes, the King of Mewar was heading back to his palace after a long journey and was carting a massive Ganesh idol on a bullock cart. The king had decided that he would build a temple for the idol of Lord Ganesh wherever the bullock cart stopped. Apparently the cart stopped at the foot of the Moti Doongri, which is where the temple is situated today. The hill also has an exotic palace perched right on top. A replica of a Scottish castle, it was once the royal home of Maharaja Sawai Man Singh. It continues to belong to the royal family. The mere view of this castle is extremely exotic.</p>
+        </div>
+
+        <div class="place">
+            <img src="https://www.tourism.rajasthan.gov.in/content/dam/rajasthan-tourism/english/city/explore/jai_niwas.jpg">
+            <h2>Light & Sound Show at Jainiwas Udhyan</h2>
+            <p>Light & Sound Show at Jainiwas Udhyan is one of the first 3-D projection mapping-based light & sound show in Rajasthan using 3-chip DLP projectors of 25,000 lumens, DMX controlled LED lights, 5.1 audio surround system, etc. Show depicts story of world-famous Shri Govind Dev Ji temple of Jaipur including carving of Shri Govind Dev Ji idol by Brijnabh (great grandson Shri Krishna), establishment of Shri Govind Dev Ji temple in Vrindavan, hiding of idol due to attacks of invaders on temples, re-finding of idol by disciples of Shri Chetanaiya Mahaprabhu, bringing of Shri Govind Ji idol by King of Jaipur, establishment of Shri Govind Ji Temple in Jainiwas Udhyan (Jaipur).</p>
+        </div>
+    </section>  
+    <footer>
+        <p>&copy; THANK you</p>
+    </footer> 
+</body>
+</html>

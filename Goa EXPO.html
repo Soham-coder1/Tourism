@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            line-height: 1;
+            background: linear-gradient(to bottom, #ffe5b4, #ffadad);
+            color: #333;
+        }
+
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: right;
+            gap: 3em;
+            margin: 1em 0 0;
+        }
+
+        nav ul li {
+            font-size: 1.2em;
+            color: #ecf0f1;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        section span h1 {
+            font-size: 2.5em;
+            color: #0918c0;
+            animation: 10s ease-in-out;
+            text-shadow: 0px 4px 15px rgba(248, 8, 8, 0.3);
+        }
+
+        section p {
+            padding: 0 15%;
+            font-size: 1.2em;
+        }
+
+
+        div.class img,
+        span ul img {
+            width: 100%;
+            height: auto;
+            border-radius: 50px;
+            box-shadow: 0px 4px 15px rgba(206, 21, 21, 0.3);
+            transition: transform 0.5s ease;
+        }
+
+        div.class img:hover,
+        span ul img:hover {
+            transform: scale(1.1);
+            animation: 10s ease-in-out;
+        }
+
+        .wax h1 {
+            text-decoration: dashed;
+        }
+
+
+        div.wax ul {
+            list-style: square;
+            text-align: left;
+            margin: 0 auto;
+            padding: 10px 20%;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 50px;
+            box-shadow: 0px 2px 10px rgba(182, 35, 35, 0.2);
+        }
+
+        div.wax ul li {
+            margin: 5px 0;
+            font-size: 1.2em;
+        }
+
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            background: #222;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer nav ul li {
+            display: inline;
+            margin: 0 10px;
+            color: #ddd;
+            cursor: pointer;
+            transition: color 0.3s ease;
+        }
+
+        footer nav ul li:hover {
+            color: #1338b0;
+        }
+
+        footer p {
+            margin-top: 10px;
+            font-size: 0.9em;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        button {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif padding: 10px 20px;
+            background: #540fcb;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background: #ff1a1a;
+        }
+
+
+        a {
+            text-decoration: none;
+            color: #3516a7;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #0b0b0b;
+            color: #d5e9f4;
+        }
+        #imagebox{
+            display: flex;
+            flex-direction: column;
+     width: 400px;
+  background-color: white;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 12px;
+
+        }
+        #imagebox img{
+            height: 200px;
+  box-sizing: border-box;
+        }
+        #hhh{
+            width:100% ;
+            box-sizing: border-box;
+            position: absolute;
+            top: 1000px;
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section>
+        <h1>Goa Tourism site</h1>
+        <nav>
+            <ul>
+                </li> Discover</li>
+                </li> Trips</li>
+                </li> Review</li>
+
+            </ul>
+        </nav>
+    </section>
+    <div class="class">
+        <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/33/fc/f0/goa.jpg?w=1400&h=500&s=1"
+            alt="Goa spot">
+    </div>
+    <section>
+        <span>
+            <h1><b>GOA</b></h1>
+            <p>
+                East meets West in this sun-soaked state, where Indian culture intertwines with Portuguese influences
+                left over from a 500-year occupation. The beaches have long served as a magnet for serene hedonists. To
+                the north, the tourist-centric scene is prevalent, with an international flair that is now skewing more
+                hip than hippie. Travel south for stretches of unspoiled sand and an escape from large resorts. Temples,
+                mosques and wildlife sanctuaries provide diversions from the beach.The state of Goa, in India, is famous
+                for its beaches and places of worship. Tourism is its primary industry, and is generally focused on the
+                coastal areas of Goa, with decreased tourist activity inland.
+
+                Foreign tourists, mostly from Europe, arrive in Goa in winter, whilst the summer and monsoon seasons see
+                many Indian tourists. Goa handled 2.29% of all foreign tourist arrivals in the country in 2011.[1][2]
+                This relatively small state is situated on the west coast of India, between the borders of Maharashtra
+                and Karnataka, and is better known to the world as a former Portuguese enclave on Indian soil. Thus,
+                Tourism forms the backbone of Goa's economy.[3]
+
+                Major tourist attractions include Bom Jesus Basilica, Fort Aguada, a wax museum on Indian culture, and a
+                heritage museum. The Churches and Convents of Goa have been declared a World Heritage Site by UNESCO.
+            </p>
+        </span>
+    </section>
+<section id="hhh">
+    <div id="imagebox">
+
+        <img src="121905316Ashwem_Beach_Main_1523614804t.jpg">
+        <p>This article is about the UNESCO World Heritage Site. For the town in North Goa, see Goa Velha.
+            Churches and Convents of Goa
+            UNESCO World Heritage Site
+
+           </p>
+    </div>
+</section>
+    <div class="wax">
+        <h1>
+            <b>Beaches</b>
+        </h1>
+        <p>Goa's beaches cover about 125 kilometres (78 miles) of its coastline. These beaches are divided into North
+            and South Goa.</p>
+        <span>
+            <h1>South Goa Beaches</h1>
+            <ul>
+
+                <b>Mormugao</b>
+
+                <li>Bogmalo Beach,</li>
+                <li><a
+                        href="https://media1.thrillophilia.com/filestore/tflf7l7l8h7zebv743vq67f6mk25_1575266749_beaches10.jpg">Baina
+                        Beach</a></li>
+                <li><a id="hover">Hansa Beach,</a></li>
+                <li><a
+                        href="https://hblimg.mmtcdn.com/content/hubble/img/goa/mmt/activities/t_ufs/m_activities_goa_candolim_beach_l_360_640.jpg">hollant
+                        beach</a></li>
+                <li><a href="https://www.tourism-of-india.com/blog/wp-content/uploads/2021/11/Cansaulim-Beach.jpg">cansaulim
+                        beach</a> </li>
+
+            </ul>
+        </span>
+
+        <span>
+            <ul>
+
+                <b>Salcete</b><br>
+                <img
+                    src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/3e/36/95/baga-sea-beach.jpg?w=1200&h=-1&s=1">Baga
+                Beach in North Goa</a>
+
+                <li>Arossim Beach,</li>
+                <li>Utorda Beach,</li>
+                <li><a href="https://daahy6akrtcj2.cloudfront.net/resortsinmumbai.co.in/photos/1648242594.jpg">Majorda
+                        Beach</a> Beach,</li>
+                <li>Betalbatim Beach,</li>
+                <li> <a
+                        href="https://blog.hireavilla.in/wp-content/uploads/2024/07/pexels-umaraffan499-88212-scaled.jpg">Colva
+                        Beach</a></li>
+
+            </ul>
+        </span>
+        <div>
+            <h1>Sea plane service</h1>
+            <p>The government of Goa conducted trials of a seaplane on the Mandovi river on 23 May 2015. The test plane
+                took off from Dabolim airport and successfully landed in the Mandovi river. The seaplane service had
+                started post-monsoon since 2015.</p>
+        </div>
+        <div>
+            <h1>Wildlife</h1>
+            <p>Bondla <a href="https://itsgoa.com/wp-content/uploads/2022/01/20220107_222620-1024x572.jpg">BHAGABAN
+                    Mahaveer Sanctuary </a> and<a
+                    href="https://media1.thrillophilia.com/filestore/81td0loz253cx922sm7ixzbfhegk_cotigao-wildlife-sanctuary-banner.jpg">Cotigao
+                    Wildlife Sanctuary</a> ,Mollem National Park , Mhadei Wildlife Sanctuary and Netravali Wildlife
+                Sanctuary harbour Goa's rich bio-diversity. Foxes, wild boars and migratory birds are also found in the
+                forests of Goa. The avifauna includes kingfishers, mynas and parrots. The famous Dudhsagar Falls,
+                India's fifth tallest at 310 metres, is located inside Bhagwan Mahaveer Sanctuary at the Goa – Karnataka
+                border.
+
+                The renowned<a href="httS://itsgoa.com/wp-content/uploads/2022/01/20220107_222620-1024x572.jpg">Salim
+                    Ali Bird Sanctuary</a> is located on the island of Chorao. The endangered olive ridley sea turtle
+                can be found on Morjim Beach in Pernem, Northern Goa and Galgibaga Beach in Canacona, Southern Goa. The
+                turtles are listed in Schedule I of the Indian Wildlife Act. Morjim Beach is also hosting to a number of
+                migratory birds from late September to early April. The area surrounding the shore at Tembwada in Morjim
+                also abounds in various species of birds. A number of international bird watching tours are organised in
+                the area.</p>
+        </div>
+        <div>
+            <h1>Waterfalls</h1>
+            <ul>
+                <li><a
+                        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvXyPyzmtgoeu1ObabCrAAPChdyhsotZnNnw&s">Dudhsagar
+                        Falls</a></li>
+                <li>Kuske falls</li>
+                <li>Kesarval Falls</li>
+                <li>Charavane falls</li>
+            </ul>l
+        </div>
+        <div>
+            <h1>Heritage homes</h1>
+            <p>Another major tourist attraction in Goa is its heritage homes.[24] A legacy of the Portuguese colonial
+                regime of more than 450 years, some of these palatial homes are now converted into hotels while many are
+                still inhabited by the people. The popular heritage homes in Goa are:
+                <li>The Fernandes house, also known as 'Voddlem Ghor' in Cotta is an architectural marvel in <a
+                        href="https://static.toiimg.com/photo/51990027.cms">chandor.</a></li>
+                <li>The Menezes Bragança House in Chandor was built circa 1730. It was once owned by<a
+                        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlG-qMCAjdmudAewf6GLlrb_zPP9FwWU7_tg&s">Luís
+                        de Menezes Bragança,</a> Tristão de Bragança Cunha, Beatriz de Menezes Bragança, and her sister
+                    Berta Menezes Bragança.</li>
+                <li>The Vivian Coutinho House in<a
+                        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfoqFTsBLhtPaIY2-BOr1Sko9damGNv65RQA&s">Fatorda+</a>
+                    is among the few Goan houses with decorative Azulejo tiles</li>
+            </p>
+        </div>
+        <div>
+            <h1>Forts</h1>
+            <p>The landscape of Goa is dotted with several forts are........</p>
+            <li><a href="https://cdn.guidetour.in/wp-content/uploads/2018/03/Taj-Fort-Aguada.jpg.webp">Aguada</a> </li>
+            <li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzQUgr7eSHjZacC4cCS7Bf4EsaPPcVsFKVBw&s">Alorna
+                    fort</a></li>
+            <li><a href="https://windowsofnewthoughts.com/wp-content/uploads/2024/09/anjediva-for-goa.jpg">Anjediva
+                    Fort</a></li>
+            <li><a
+                    href="https://res.cloudinary.com/simplotel/image/upload/w_5000,h_3333/x_0,y_260,w_5000,h_2813,r_0,c_crop,q_80,fl_progressive/w_500,f_auto,c_fit/neemrana%E2%80%99s-kharvi-abode/A_lighthouse_near_a_beach_with_a_sunset_in_the_background_j91aq2">betul
+                    fort</a></li>
+            <li>Corjuem Fort</li>
+            <li>Gandaulim Fort</li>
+            <li>St Estevam Fort</li>
+            <li><a href="https://inngoa.com/wp-content/uploads/2013/06/Reis-Magos-Fort-Goa.jpg">Reis Magos</a></li>
+            <li>Naroa Fort</li>
+            <li>Ponda Fort/li>
+            <li><a href="https://cdn.thegoavilla.com/static/img/articles/terekhol-fort.jpg">Tiracol fort</a></li>
+        </div>
+
+
+    </div>
+
+    <footer>
+        <nav>
+            <ul>
+                <li>
+
+                    Privacy policy <a href="https://en.wikipedia.org/wiki/Goa">About Wikipedia</a> Disclaimers Contact
+                </li>
+            </ul>
+        </nav>
+        <p>&copy; THANK you For Visiting</p>
+    </footer>
+
+    <script>
+        let a=document.getElementById("hover");
+        document.getElementById("imagebox").style.display="none";
+       
+        a.addEventListener("mouseover",function(){
+        document.getElementById("imagebox").style.display="flex";
+
+        })
+        a.addEventListener("mouseout",function(){
+        document.getElementById("imagebox").style.display="none";
+
+        })
+
+    </script>
+
+</body>
+
+</html>
