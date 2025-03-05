@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #304f8d;
+    background: url('https://images.pexels.com/photos/30940111/pexels-photo-30940111/free-photo-of-pedestrian-waiting-at-london-crosswalk-at-night.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') ;   
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat; 
+     
+    text-align: center;
+}
+
+header {
+    background: #2b6e98;
+    color: #ffffff;
+    margin: 20px 30px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.About:hover {
+    background-color: blue;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #0b0909;
+    text-decoration: none;
+}
+
+h2 {
+    color: #e3d0cc;
+    
+}
+
+.place {
+    background: #28bf17c9;
+    margin: 55px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #bcc2c8;
+    color: #120c0c;
+}
+#about p{
+    color: white;
+}
